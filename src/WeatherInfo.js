@@ -23,7 +23,7 @@ export default function WeatherInfo(props) {
 
         <img
           className="iconbig"
-          src={`https://raw.githubusercontent.com/KatGrenade/REACTweatherApp/0f9b641fa802c4d80796b8990a1bbe206206fd90/src/images/${props.weatherdata.icon}.svg`}
+          src={`https://raw.githubusercontent.com/KatGrenade/REACTappWeather/7ad61c8cdcac19d21173a5becebdf808fb174c10/icons/${props.weatherdata.icon}.svg`}
           alt={props.weatherdata.description}
         />
       </div>
