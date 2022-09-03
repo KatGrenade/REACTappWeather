@@ -11,7 +11,7 @@ export default function App(props) {
         <small>
           <a
             className="githublink"
-            href="https://github.com/KatGrenade/weather_app_SheCodes"
+            href="https://github.com/KatGrenade/REACTappWeather"
           >
             Open-source code
           </a>{" "}
