@@ -21,7 +21,7 @@ export default function WeatherForecastDay(props) {
 
       <img
         className="icon"
-        src={`https://raw.githubusercontent.com/KatGrenade/REACTweatherApp/0f9b641fa802c4d80796b8990a1bbe206206fd90/src/images/${props.data.weather[0].icon}.svg`}
+        src={`https://raw.githubusercontent.com/KatGrenade/REACTappWeather/7ad61c8cdcac19d21173a5becebdf808fb174c10/icons/${props.data.weather[0].icon}.svg`}
         alt={props.data.weather[0].description}
       />
 
