@@ -1,0 +1,92 @@
+.form-inline {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 5px;
+}
+p {
+  color: #384047;
+  margin-left: 40px;
+  font-family: "Signika Negative", sans-serif;
+}
+.display-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.current-city-display {
+  margin-left: 12px;
+  display: inline-block;
+  align-self: flex-end;
+  padding-bottom: 10px;
+}
+.city-name {
+  color: #384047;
+  font-family: "Signika Negative", sans-serif;
+  margin-bottom: 0;
+}
+ul {
+  margin: 0 0 0 10px;
+  padding: 0;
+  line-height: 1;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+.weather-display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.current-temperature {
+  color: #384047;
+  font-family: "Signika Negative", sans-serif;
+  display: inline;
+}
+.units {
+  color: #384047;
+  font-size: 30px;
+  font-family: "Signika Negative", sans-serif;
+  position: relative;
+  top: -6px;
+  padding-left: 3px;
+}
+.weather-display .active {
+  color: #0dcaf0;
+  cursor: default;
+}
+#celsius-link,
+#fahrenheit-link {
+  text-decoration: none;
+}
+.iconbig {
+  width: 150px;
+  margin-left: 10px;
+}
+.icon {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.weekdays {
+  color: #384047;
+  font-family: "Signika Negative", sans-serif;
+  text-align: center;
+}
+
+.temperature {
+  color: #384047;
+  font-family: "Signika Negative", sans-serif;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.spinner {
+  justify-content: center;
+}
